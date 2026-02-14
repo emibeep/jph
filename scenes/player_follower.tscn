@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcgb6ro7i7lhd"]
+
+[ext_resource type="Script" uid="uid://crki7g2kguu5v" path="res://scripts/player_control/player_follower.gd" id="1_3sxqj"]
+
+[node name="PlayerFollower" type="Node2D"]
+script = ExtResource("1_3sxqj")
+
+[node name="DebugShape" type="Polygon2D" parent="."]
+visible = false
+position = Vector2(-1, 0)
+polygon = PackedVector2Array(-2, -3, -2, 3, 4, 3, 4, -3)

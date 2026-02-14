@@ -1,0 +1,8 @@
+res://scripts/player_control/camera.gd
+res://scenes/main.tscn
+res://scenes/player.tscn
+res://scripts/player_control/delayed_player.gd
+res://scenes/camera.tscn
+res://scripts/player_control/follower.gd
+res://scenes/follower.tscn
+res://scenes/player_follower.tscn
